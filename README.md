@@ -8,7 +8,7 @@ An end-to-end IT Service Management (ITSM) workflow built in a ServiceNow Person
 2. **Dynamic Validation (Catalog UI Policy):** Selecting high-cost hardware (*High-Performance MacBook Pro*) or elevated permissions (*Remote VPN & Admin Access*) dynamically enforces a mandatory business justification field.
 3. **Automated Approval Routing (Flow Designer):** The workflow inspects the requester's user profile, routes an approval request to their direct manager (**Jordan Taylor**), and pauses fulfillment until a decision is recorded.
 4. **Conditional Fulfillment & Queue Assignment:**
-   * **If Approved:** Automatically generates a Catalog Task (`SCTASK`) containing all form variables and assigns it to the **IT Service Desk** queue, where an ITIL-licensed technician (**Sam Rivera**) provisions the assets and closes the ticket.
+   * **If Approved:** Automatically generates a Catalog Task (`SCTASK`) containing all form variables and assigns it to the **IT Service Desk** queue, a technician with the itil role (**Sam Rivera**) provisions the assets and closes the ticket.
    * **If Rejected:** Automatically updates the parent Requested Item (`RITM`) state to *Closed Incomplete*.
 
 ---
