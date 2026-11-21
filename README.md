@@ -26,20 +26,28 @@ An end-to-end IT Service Management (ITSM) workflow built in a ServiceNow Person
 
 ### 1. RBAC & IT Service Desk Group Configuration
 Configured the **IT Service Desk** assignment group managed by **Jordan Taylor**, granted ticket-handling permissions via the `itil` role, and assigned **Sam Rivera** as the Tier 1 fulfillment technician.
-![IT Service Desk RBAC Setup](images/01-it-service-desk-rbac-setup.png)
+<img width="1467" height="619" alt="01-it-service-desk-rbac-setup part 1" src="https://github.com/user-attachments/assets/1f46e368-3864-4de5-b067-d956bb3032a9" />
+<img width="1467" height="619" alt="01-it-service-desk-rbac-setup part 2" src="https://github.com/user-attachments/assets/3e8c0a5d-da18-44dc-b932-ed724983b4ab" />
+
 
 ### 2. Dynamic Service Catalog Form & UI Policy
 Built the **New Hire Hardware & Access Bundle** form with conditional validation that dynamically requires a **Business Justification** when requesting a MacBook Pro or Remote VPN access.
-![Service Catalog Form UI Policy](images/02-service-catalog-form-ui-policy.png)
+<img width="1467" height="828" alt="02-service-catalog-form-ui-policy" src="https://github.com/user-attachments/assets/901fbf01-3b3e-4b96-a178-be27de9f9260" />
+
 
 ### 3. Flow Designer Approval & Task Automation
 Automated the backend lifecycle to pull form variables, route approvals dynamically to the requester's manager, and branch between creating an IT Service Desk task or closing rejected requests.
-![Flow Designer Workflow](images/03-flow-designer-approval-workflow.png)
+<img width="1467" height="828" alt="03-flow-designer-approval-workflow" src="https://github.com/user-attachments/assets/40b73379-d1b1-478b-80cc-0b57c4216a3e" />
+
 
 ### 4. End-User Portal Submission
 Validated the employee experience by impersonating **Alex Chen** in the Service Portal (`/sp`) to submit request `REQ0010001`.
-![Portal Request Submission](images/04-portal-request-submission-alex.png)
+<img width="1470" height="837" alt="04-portal-request-submission-alex" src="https://github.com/user-attachments/assets/2554f8d5-3eaf-40a3-9370-deca2de3cf96" />
+
 
 ### 5. IT Fulfillment & Closed Catalog Task
 Validated technician queue routing and ticket resolution by impersonating **Sam Rivera**, documenting provisioning details in the work notes, and closing `SCTASK0010001`.
-![Closed Catalog Task](images/05-closed-catalog-task-activity-log.png)
+<img width="1469" height="837" alt="05-closed-catalog-task-activity-log" src="https://github.com/user-attachments/assets/bce12c18-21e0-4a39-8147-2cad4755bf05" />
+<img width="1469" height="389" alt="05-closed-catalog-task-activity-log part 2" src="https://github.com/user-attachments/assets/1066b9be-cd0a-44c3-b84e-2ef1be6307b8" />
+
+
